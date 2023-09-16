@@ -7,3 +7,4 @@ driver = webdriver.Firefox(service=serv_obj)
 
 driver.get("https://www.facebook.com/")
 
+driver.quit()
